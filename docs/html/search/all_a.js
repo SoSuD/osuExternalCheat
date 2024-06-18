@@ -1,0 +1,11 @@
+var searchData=
+[
+  ['readbytesfrommemory_0',['readbytesfrommemory',['../myfunctions_8h.html#a1afc39065446fec3c9663ecc0bcec956',1,'readBytesFromMemory(HANDLE hProcess, DWORD address, SIZE_T size):&#160;myfunction.cpp'],['../myfunction_8cpp.html#a1afc39065446fec3c9663ecc0bcec956',1,'readBytesFromMemory(HANDLE hProcess, DWORD address, SIZE_T size):&#160;myfunction.cpp']]],
+  ['readfiletovector_1',['readfiletovector',['../geometry_8h.html#a207946369e9a8b835e0a15f61a9bd57c',1,'readFileToVector(const std::string filename):&#160;geometry.cpp'],['../geometry_8cpp.html#a207946369e9a8b835e0a15f61a9bd57c',1,'readFileToVector(const std::string filename):&#160;geometry.cpp']]],
+  ['readfiletovectortimings_2',['readfiletovectortimings',['../geometry_8h.html#a7d8f3dc01e7f70314291d1da97b2f0be',1,'readFileToVectorTimings(const std::string filename, double &amp;sliderMultiplier):&#160;geometry.cpp'],['../geometry_8cpp.html#a7d8f3dc01e7f70314291d1da97b2f0be',1,'readFileToVectorTimings(const std::string filename, double &amp;sliderMultiplier):&#160;geometry.cpp']]],
+  ['readmemory_3',['readmemory',['../myfunctions_8h.html#aed19fb3d63a8ad51036e86b25b8b6ce1',1,'readMemory(HANDLE hProcess, LPCVOID lpBaseAddress, LPVOID lpBuffer, SIZE_T nSize):&#160;myfunction.cpp'],['../myfunction_8cpp.html#aed19fb3d63a8ad51036e86b25b8b6ce1',1,'readMemory(HANDLE hProcess, LPCVOID lpBaseAddress, LPVOID lpBuffer, SIZE_T nSize):&#160;myfunction.cpp']]],
+  ['resosux_4',['resosux',['../config_8h.html#abdcc5a2ecfc33c659b8d8ed29b9f15be',1,'resosux:&#160;config.cpp'],['../config_8cpp.html#abdcc5a2ecfc33c659b8d8ed29b9f15be',1,'resosux:&#160;config.cpp']]],
+  ['resosuy_5',['resosuy',['../config_8h.html#a75ae59c94cdddd3ed3bf8d4f0e44f1f1',1,'resosuy:&#160;config.cpp'],['../config_8cpp.html#a75ae59c94cdddd3ed3bf8d4f0e44f1f1',1,'resosuy:&#160;config.cpp']]],
+  ['resx_6',['resx',['../config_8h.html#a820ba76fb06d3f3fc43c6f937db69881',1,'resx:&#160;config.cpp'],['../config_8cpp.html#a820ba76fb06d3f3fc43c6f937db69881',1,'resx:&#160;config.cpp']]],
+  ['resy_7',['resy',['../config_8h.html#a64ca07eb6cb14691d8fe43d727bfc2ad',1,'resy:&#160;config.cpp'],['../config_8cpp.html#a64ca07eb6cb14691d8fe43d727bfc2ad',1,'resy:&#160;config.cpp']]]
+];
