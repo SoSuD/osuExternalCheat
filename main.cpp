@@ -229,5 +229,18 @@ int main() {
         }
       }
     }
+
+    if (std::bitset<8>(type)[3] == 1) {
+      int spinnerTimeEnd = line.first[6];
+      while (true) {
+        int millis = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
+        if (millis - startTime >= time) {
+          keybd_event('Z', 0, 0, 0);
+          moveCursorInCircle(time, spinnerTimeEnd);
+          keybd_event('Z', 0, KEYEVENTF_KEYUP, 0);
+          break;
+        }
+      }
+    }
   }
 }
