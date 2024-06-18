@@ -167,5 +167,67 @@ int main() {
         }
       }
     }
+
+    int iterations = line.first[7];
+    if (std::bitset<8>(type)[1] == 1) {
+      if (line.first[4] == 0) {
+        int distance = line.first[5];
+        int x2 = line.second[0][0];
+        int y2 = line.second[0][1];
+
+        while (true) {
+          int millis = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
+          if (millis - startTime >= time) {
+            std::cout << "values: x = " << x << ", y = " << y << ", time = " << time << std::endl;
+            std::vector<int> xy = calculatePixel(x, y);
+            SetCursorPos(xy[0], xy[1]);
+            keybd_event(key, 0, 0, 0);
+            delay(2);
+            lSlider(distance, sliderMultiplier, SV, beatLength, x, y, x2, y2, iterations);
+            delay(2);
+            keybd_event(key, 0, KEYEVENTF_KEYUP, 0);
+            break;
+          }
+        }
+      }
+
+      if (line.first[4] == 1) {
+        int distance = line.first[5];
+        while (true) {
+          int millis = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
+          if (millis - startTime >= time) {
+            std::cout << "values: x = " << x << ", y = " << y << ", time = " << time << std::endl;
+            std::vector<int> xy = calculatePixel(x, y);
+            SetCursorPos(xy[0], xy[1]);
+            keybd_event(key, 0, 0, 0);
+            std::vector<std::vector<int>> m = line.second;
+            m.insert(m.begin(), {x, y});
+            delay(2);
+            smoothMoveBezier(m, sliderTime(distance, sliderMultiplier, SV, beatLength), distance, iterations);
+            delay(1);
+            keybd_event(key, 0, KEYEVENTF_KEYUP, 0);
+            break;
+          }
+        }
+      }
+
+      if (line.first[4] == 2) {
+        int distance = line.first[5];
+        std::vector<int> xy = calculatePixel(x, y);
+        std::vector<std::vector<int>> m = line.second;
+        m.insert(m.begin(), {x, y});
+        while (true) {
+          int millis = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
+          if (millis - startTime >= time) {
+            keybd_event(key, 0, 0, 0);
+            delay(2);
+            circularSlider(m, sliderTime(distance, sliderMultiplier, SV, beatLength), distance, 1, iterations);
+            delay(3);
+            keybd_event(key, 0, KEYEVENTF_KEYUP, 0);
+            break;
+          }
+        }
+      }
+    }
   }
 }
