@@ -23,7 +23,7 @@ ProjectAIP — это приложение для автоматизации н�
 1. Клонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/yourusername/ProjectAIP.git
+    git clone --recurse-submodules https://github.com/SoSuD/osuExternalCheat.git
     cd ProjectAIP
     ```
 
