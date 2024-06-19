@@ -4,6 +4,34 @@
 #include <iostream>
 #include <Windows.h>
 
+void PressKey(char key) {
+  INPUT input = {0};
+  input.type = INPUT_KEYBOARD;
+
+  if (key == 'Z') {
+      input.ki.wVk = 0x5A; 
+  } else {
+      input.ki.wVk = 0x58; 
+  }
+  input.ki.dwFlags = 0; 
+
+  SendInput(1, &input, sizeof(INPUT));
+}
+
+void ReleaseKey(char key) {
+  INPUT input = {0};
+  input.type = INPUT_KEYBOARD;
+
+  if (key == 'Z') {
+      input.ki.wVk = 0x5A; 
+  } else {
+      input.ki.wVk = 0x58; 
+  }
+  input.ki.dwFlags = KEYEVENTF_KEYUP; 
+
+  SendInput(1, &input, sizeof(INPUT));
+}
+
 std::vector<std::vector<double>> convertToDouble(const std::vector<std::string> input) {
   std::vector<std::vector<double>> result;
 
@@ -18,7 +46,7 @@ std::vector<std::vector<double>> convertToDouble(const std::vector<std::string> 
       result.push_back(temp);
       std::cout << "dobavilTiming" << std::endl;
     } catch (const std::exception& e) {
-      std::cerr << "Ошибка при конвертации строк в числа: " << e.what() << std::endl;
+      std::cerr << "Error in ConvertToDouble: " << e.what() << std::endl;
     }
   }
   return result;
@@ -27,7 +55,6 @@ std::vector<std::vector<double>> convertToDouble(const std::vector<std::string> 
 void spaceCheck() {
   while (true) {
     if (GetAsyncKeyState(VK_F9) & 0x8000) {
-      std::cout << "Пробел нажат. Запуск основного кода..." << std::endl;
       break;
     }
   }

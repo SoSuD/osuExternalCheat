@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp[1]_tests.cmake")
+  include("C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp[1]_tests.cmake")
+else()
+  add_test(TestApp_NOT_BUILT TestApp_NOT_BUILT)
+endif()

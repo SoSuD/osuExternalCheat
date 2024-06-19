@@ -62,7 +62,7 @@ std::vector<BYTE> readBytesFromMemory(HANDLE hProcess, DWORD address, SIZE_T siz
 
 std::wstring bytesToUtf16String(const std::vector<BYTE>& bytes) {
   if (bytes.size() % 2 != 0) {
-    std::cerr << "Byte array size is not even, cannot convert to UTF-16" << std::endl;
+    std::cerr << "Byte array size is not even" << std::endl;
     return L"";
   }
   std::wstring result;

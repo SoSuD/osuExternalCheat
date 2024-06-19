@@ -15,7 +15,7 @@
 std::vector<std::vector<double>> convertToDouble(const std::vector<std::string> input);
 
 /**
- * @brief Checks if the space key is pressed.
+ * @brief Checks if the F9 key is pressed.
  */
 void spaceCheck();
 
@@ -37,4 +37,17 @@ void smoothMove(int startX, int startY, int endX, int endY, int duration);
  */
 void delay(int milliseconds);
 
+/**
+ * @brief Presses X or Z
+ *
+ * @param key Press key
+ */
+void PressKey(char key);
+
+/**
+ * @brief Release X or Z
+ *
+ * @param key Release key
+ */
+void ReleaseKey(char key);
 #endif // UTILS_H
