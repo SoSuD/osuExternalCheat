@@ -269,7 +269,8 @@ void moveCursorInCircle(int timeNow, int timeEnd) {
 }
 
 struct Point {
-  int x, y;
+    int x; ///< The X coordinate of the point.
+    int y; ///< The Y coordinate of the point.
 };
 
 Point bezier(float t, const std::vector<std::vector<int>>& controlPoints) {
