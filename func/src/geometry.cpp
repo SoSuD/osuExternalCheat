@@ -168,7 +168,7 @@ std::vector<std::pair<std::vector<int>, std::vector<std::vector<int>>>> convertM
       y1 = y;
       time1 = time;
     } else {
-      std::cout << "������ �������� " << line << std::endl;
+      std::cout << "Error line: " << line << std::endl;
     }
   }
 
@@ -370,12 +370,12 @@ bool checkOrientation(std::vector<std::vector<int>> points) {
   std::vector<int> p3 = points[2];
   int result = orientation(p1, p2, p3);
   if (result == 0) {
-    std::cout << "����� �����������\n";
+    std::cout << "colleniar" << std::endl;
   } else if (result == 1) {
-    std::cout << "�� ������� �������\n";
+    std::cout << "clockwise" << std::endl;
     return true;
   } else {
-    std::cout << "������ ������� �������\n";
+    std::cout << "not clockwise" << std::endl;
     return false;
   }
 }
