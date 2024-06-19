@@ -24,7 +24,7 @@ ProjectAIP — это приложение для автоматизации н�
 
     ```bash
     git clone --recurse-submodules https://github.com/SoSuD/osuExternalCheat.git
-    cd ProjectAIP
+    cd osuExternalCheat
     ```
 
 2. Создайте и перейдите в директорию сборки:
