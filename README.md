@@ -23,7 +23,7 @@ ProjectAIP — это приложение для автоматизации н�
 1. Клонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/yourusername/ProjectAIP.git
+    git clone --recurse-submodules https://github.com/SoSuD/osuExternalCheat.git
     cd ProjectAIP
     ```
 
@@ -33,14 +33,19 @@ ProjectAIP — это приложение для автоматизации н�
     mkdir build
     cd build
     ```
+3. Откройте файл main.cpp и отредактируйте 54 строчку под ваш путь к картам.
+ 
+    ```std::string songsPath = {ваш путь};
+        Пример: std::string songsPath = "C:/Users/SSD1337/AppData/Local/osu!/Songs/";
+    ```
 
-3. Сконфигурируйте проект с помощью CMake:
+5. Сконфигурируйте проект с помощью CMake:
 
     ```bash
     cmake ..
     ```
 
-4. Соберите проект:
+6. Соберите проект:
 
     ```bash
     cmake --build .
