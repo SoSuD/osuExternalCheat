@@ -21,8 +21,6 @@
 
 using namespace std::chrono;
 
-double beatLength;
-
 int main() {
   SetConsoleCP(CP_UTF8);
   SetConsoleOutputCP(CP_UTF8);
@@ -103,7 +101,7 @@ int main() {
   std::cout << "start time: " << firstNoteTime << std::endl;
   int startTime = millis - firstNoteTime;
   char key = 'Z';
-
+  double beatLength;
   for (const auto& line : map) {
     //std::cout << "{ ";
     //for (const auto& value : line.first) {
@@ -159,10 +157,10 @@ int main() {
         if (millis - startTime >= time) {
           std::cout << "values: x = " << x << ", y = " << y << ", time = " << time << std::endl;
           SetCursorPos(x, y);
-          keybd_event(key, 0, 0, 0);
-          delay(5);
-          keybd_event(key, 0, KEYEVENTF_KEYUP, 0);
-          delay(2);
+          PressKey(key);
+          delay(15);
+          ReleaseKey(key);
+          delay(3);
           break;
         }
       }
@@ -181,8 +179,8 @@ int main() {
             std::cout << "values: x = " << x << ", y = " << y << ", time = " << time << std::endl;
             std::vector<int> xy = calculatePixel(x, y);
             SetCursorPos(xy[0], xy[1]);
-            keybd_event(key, 0, 0, 0);
-            delay(2);
+            PressKey(key);
+            delay(12);
             lSlider(distance, sliderMultiplier, SV, beatLength, x, y, x2, y2, iterations);
             delay(2);
             keybd_event(key, 0, KEYEVENTF_KEYUP, 0);
@@ -199,13 +197,13 @@ int main() {
             std::cout << "values: x = " << x << ", y = " << y << ", time = " << time << std::endl;
             std::vector<int> xy = calculatePixel(x, y);
             SetCursorPos(xy[0], xy[1]);
-            keybd_event(key, 0, 0, 0);
+            PressKey(key);
             std::vector<std::vector<int>> m = line.second;
             m.insert(m.begin(), {x, y});
-            delay(2);
+            delay(12);
             smoothMoveBezier(m, sliderTime(distance, sliderMultiplier, SV, beatLength), distance, iterations);
             delay(1);
-            keybd_event(key, 0, KEYEVENTF_KEYUP, 0);
+            ReleaseKey(key);
             break;
           }
         }
@@ -219,11 +217,11 @@ int main() {
         while (true) {
           int millis = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
           if (millis - startTime >= time) {
-            keybd_event(key, 0, 0, 0);
-            delay(2);
+            PressKey(key);
+            delay(12);
             circularSlider(m, sliderTime(distance, sliderMultiplier, SV, beatLength), distance, 1, iterations);
             delay(3);
-            keybd_event(key, 0, KEYEVENTF_KEYUP, 0);
+            ReleaseKey(key);
             break;
           }
         }
@@ -235,9 +233,9 @@ int main() {
       while (true) {
         int millis = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
         if (millis - startTime >= time) {
-          keybd_event('Z', 0, 0, 0);
+          PressKey(key);
           moveCursorInCircle(time, spinnerTimeEnd);
-          keybd_event('Z', 0, KEYEVENTF_KEYUP, 0);
+          ReleaseKey(key);
           break;
         }
       }

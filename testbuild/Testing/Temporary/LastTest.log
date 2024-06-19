@@ -1,0 +1,426 @@
+Start testing: Jun 19 07:08 RTZ 2 (зима)
+----------------------------------------------------------
+1/16 Testing: GeometryTestSuite.CalculatePixelPositive
+1/16 Test: GeometryTestSuite.CalculatePixelPositive
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=GeometryTestSuite.CalculatePixelPositive" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"GeometryTestSuite.CalculatePixelPositive" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GeometryTestSuite.CalculatePixelPositive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeometryTestSuite
+[ RUN      ] GeometryTestSuite.CalculatePixelPositive
+[       OK ] GeometryTestSuite.CalculatePixelPositive (0 ms)
+[----------] 1 test from GeometryTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GeometryTestSuite.CalculatePixelPositive" end time: Jun 19 07:08 RTZ 2 (зима)
+"GeometryTestSuite.CalculatePixelPositive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/16 Testing: GeometryTestSuite.CalculatePixelNegative
+2/16 Test: GeometryTestSuite.CalculatePixelNegative
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=GeometryTestSuite.CalculatePixelNegative" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"GeometryTestSuite.CalculatePixelNegative" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GeometryTestSuite.CalculatePixelNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeometryTestSuite
+[ RUN      ] GeometryTestSuite.CalculatePixelNegative
+[       OK ] GeometryTestSuite.CalculatePixelNegative (0 ms)
+[----------] 1 test from GeometryTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GeometryTestSuite.CalculatePixelNegative" end time: Jun 19 07:08 RTZ 2 (зима)
+"GeometryTestSuite.CalculatePixelNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/16 Testing: GeometryTestSuite.ParseLinePositive
+3/16 Test: GeometryTestSuite.ParseLinePositive
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=GeometryTestSuite.ParseLinePositive" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"GeometryTestSuite.ParseLinePositive" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GeometryTestSuite.ParseLinePositive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeometryTestSuite
+[ RUN      ] GeometryTestSuite.ParseLinePositive
+[       OK ] GeometryTestSuite.ParseLinePositive (0 ms)
+[----------] 1 test from GeometryTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GeometryTestSuite.ParseLinePositive" end time: Jun 19 07:08 RTZ 2 (зима)
+"GeometryTestSuite.ParseLinePositive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/16 Testing: GeometryTestSuite.ParseLineNegative
+4/16 Test: GeometryTestSuite.ParseLineNegative
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=GeometryTestSuite.ParseLineNegative" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"GeometryTestSuite.ParseLineNegative" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GeometryTestSuite.ParseLineNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeometryTestSuite
+[ RUN      ] GeometryTestSuite.ParseLineNegative
+пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ: stoi
+[       OK ] GeometryTestSuite.ParseLineNegative (0 ms)
+[----------] 1 test from GeometryTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GeometryTestSuite.ParseLineNegative" end time: Jun 19 07:08 RTZ 2 (зима)
+"GeometryTestSuite.ParseLineNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/16 Testing: GeometryTestSuite.ConvertMapPositive
+5/16 Test: GeometryTestSuite.ConvertMapPositive
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=GeometryTestSuite.ConvertMapPositive" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"GeometryTestSuite.ConvertMapPositive" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GeometryTestSuite.ConvertMapPositive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeometryTestSuite
+[ RUN      ] GeometryTestSuite.ConvertMapPositive
+128,96,6000,1,0,0:0:0:0:0:
+256,192,3000,1,0,0:0:0:0:0:
+128 96 -1 -1
+256 192 128 96
+[       OK ] GeometryTestSuite.ConvertMapPositive (0 ms)
+[----------] 1 test from GeometryTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GeometryTestSuite.ConvertMapPositive" end time: Jun 19 07:08 RTZ 2 (зима)
+"GeometryTestSuite.ConvertMapPositive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/16 Testing: GeometryTestSuite.ConvertMapNegative
+6/16 Test: GeometryTestSuite.ConvertMapNegative
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=GeometryTestSuite.ConvertMapNegative" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"GeometryTestSuite.ConvertMapNegative" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GeometryTestSuite.ConvertMapNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeometryTestSuite
+[ RUN      ] GeometryTestSuite.ConvertMapNegative
+invalid,map,line
+пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ invalid,map,line
+[       OK ] GeometryTestSuite.ConvertMapNegative (0 ms)
+[----------] 1 test from GeometryTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GeometryTestSuite.ConvertMapNegative" end time: Jun 19 07:08 RTZ 2 (зима)
+"GeometryTestSuite.ConvertMapNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/16 Testing: GeometryTestSuite.LSliderCordsPositive
+7/16 Test: GeometryTestSuite.LSliderCordsPositive
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=GeometryTestSuite.LSliderCordsPositive" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"GeometryTestSuite.LSliderCordsPositive" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GeometryTestSuite.LSliderCordsPositive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeometryTestSuite
+[ RUN      ] GeometryTestSuite.LSliderCordsPositive
+[       OK ] GeometryTestSuite.LSliderCordsPositive (0 ms)
+[----------] 1 test from GeometryTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GeometryTestSuite.LSliderCordsPositive" end time: Jun 19 07:08 RTZ 2 (зима)
+"GeometryTestSuite.LSliderCordsPositive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/16 Testing: GeometryTestSuite.LSliderCordsNegative
+8/16 Test: GeometryTestSuite.LSliderCordsNegative
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=GeometryTestSuite.LSliderCordsNegative" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"GeometryTestSuite.LSliderCordsNegative" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GeometryTestSuite.LSliderCordsNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeometryTestSuite
+[ RUN      ] GeometryTestSuite.LSliderCordsNegative
+[       OK ] GeometryTestSuite.LSliderCordsNegative (0 ms)
+[----------] 1 test from GeometryTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GeometryTestSuite.LSliderCordsNegative" end time: Jun 19 07:08 RTZ 2 (зима)
+"GeometryTestSuite.LSliderCordsNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/16 Testing: GeometryTestSuite.FindPointOnCirclePositive
+9/16 Test: GeometryTestSuite.FindPointOnCirclePositive
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=GeometryTestSuite.FindPointOnCirclePositive" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"GeometryTestSuite.FindPointOnCirclePositive" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GeometryTestSuite.FindPointOnCirclePositive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeometryTestSuite
+[ RUN      ] GeometryTestSuite.FindPointOnCirclePositive
+[       OK ] GeometryTestSuite.FindPointOnCirclePositive (0 ms)
+[----------] 1 test from GeometryTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GeometryTestSuite.FindPointOnCirclePositive" end time: Jun 19 07:08 RTZ 2 (зима)
+"GeometryTestSuite.FindPointOnCirclePositive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/16 Testing: GeometryTestSuite.FindPointOnCircleNegative
+10/16 Test: GeometryTestSuite.FindPointOnCircleNegative
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=GeometryTestSuite.FindPointOnCircleNegative" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"GeometryTestSuite.FindPointOnCircleNegative" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GeometryTestSuite.FindPointOnCircleNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeometryTestSuite
+[ RUN      ] GeometryTestSuite.FindPointOnCircleNegative
+[       OK ] GeometryTestSuite.FindPointOnCircleNegative (0 ms)
+[----------] 1 test from GeometryTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GeometryTestSuite.FindPointOnCircleNegative" end time: Jun 19 07:08 RTZ 2 (зима)
+"GeometryTestSuite.FindPointOnCircleNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/16 Testing: MyFunctionsTestSuite.GetProcessHandleByNamePositive
+11/16 Test: MyFunctionsTestSuite.GetProcessHandleByNamePositive
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=MyFunctionsTestSuite.GetProcessHandleByNamePositive" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"MyFunctionsTestSuite.GetProcessHandleByNamePositive" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MyFunctionsTestSuite.GetProcessHandleByNamePositive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyFunctionsTestSuite
+[ RUN      ] MyFunctionsTestSuite.GetProcessHandleByNamePositive
+[       OK ] MyFunctionsTestSuite.GetProcessHandleByNamePositive (3 ms)
+[----------] 1 test from MyFunctionsTestSuite (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MyFunctionsTestSuite.GetProcessHandleByNamePositive" end time: Jun 19 07:08 RTZ 2 (зима)
+"MyFunctionsTestSuite.GetProcessHandleByNamePositive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/16 Testing: MyFunctionsTestSuite.GetProcessHandleByNameNegative
+12/16 Test: MyFunctionsTestSuite.GetProcessHandleByNameNegative
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=MyFunctionsTestSuite.GetProcessHandleByNameNegative" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"MyFunctionsTestSuite.GetProcessHandleByNameNegative" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MyFunctionsTestSuite.GetProcessHandleByNameNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyFunctionsTestSuite
+[ RUN      ] MyFunctionsTestSuite.GetProcessHandleByNameNegative
+[       OK ] MyFunctionsTestSuite.GetProcessHandleByNameNegative (4 ms)
+[----------] 1 test from MyFunctionsTestSuite (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MyFunctionsTestSuite.GetProcessHandleByNameNegative" end time: Jun 19 07:08 RTZ 2 (зима)
+"MyFunctionsTestSuite.GetProcessHandleByNameNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/16 Testing: MyFunctionsTestSuite.ConvertBytesToStringPositive
+13/16 Test: MyFunctionsTestSuite.ConvertBytesToStringPositive
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=MyFunctionsTestSuite.ConvertBytesToStringPositive" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"MyFunctionsTestSuite.ConvertBytesToStringPositive" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MyFunctionsTestSuite.ConvertBytesToStringPositive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyFunctionsTestSuite
+[ RUN      ] MyFunctionsTestSuite.ConvertBytesToStringPositive
+[       OK ] MyFunctionsTestSuite.ConvertBytesToStringPositive (0 ms)
+[----------] 1 test from MyFunctionsTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MyFunctionsTestSuite.ConvertBytesToStringPositive" end time: Jun 19 07:08 RTZ 2 (зима)
+"MyFunctionsTestSuite.ConvertBytesToStringPositive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/16 Testing: MyFunctionsTestSuite.ConvertBytesToStringNegative
+14/16 Test: MyFunctionsTestSuite.ConvertBytesToStringNegative
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=MyFunctionsTestSuite.ConvertBytesToStringNegative" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"MyFunctionsTestSuite.ConvertBytesToStringNegative" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MyFunctionsTestSuite.ConvertBytesToStringNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyFunctionsTestSuite
+[ RUN      ] MyFunctionsTestSuite.ConvertBytesToStringNegative
+[       OK ] MyFunctionsTestSuite.ConvertBytesToStringNegative (0 ms)
+[----------] 1 test from MyFunctionsTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MyFunctionsTestSuite.ConvertBytesToStringNegative" end time: Jun 19 07:08 RTZ 2 (зима)
+"MyFunctionsTestSuite.ConvertBytesToStringNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/16 Testing: UtilsTestSuite.DelayPositive
+15/16 Test: UtilsTestSuite.DelayPositive
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=UtilsTestSuite.DelayPositive" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"UtilsTestSuite.DelayPositive" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = UtilsTestSuite.DelayPositive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UtilsTestSuite
+[ RUN      ] UtilsTestSuite.DelayPositive
+[       OK ] UtilsTestSuite.DelayPositive (100 ms)
+[----------] 1 test from UtilsTestSuite (100 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (100 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"UtilsTestSuite.DelayPositive" end time: Jun 19 07:08 RTZ 2 (зима)
+"UtilsTestSuite.DelayPositive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/16 Testing: UtilsTestSuite.DelayNegative
+16/16 Test: UtilsTestSuite.DelayNegative
+Command: "C:/Users/SSD1337/Desktop/projectaip/testbuild/TestApp.exe" "--gtest_filter=UtilsTestSuite.DelayNegative" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/SSD1337/Desktop/projectaip/testbuild
+"UtilsTestSuite.DelayNegative" start time: Jun 19 07:08 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = UtilsTestSuite.DelayNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UtilsTestSuite
+[ RUN      ] UtilsTestSuite.DelayNegative
+[       OK ] UtilsTestSuite.DelayNegative (0 ms)
+[----------] 1 test from UtilsTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UtilsTestSuite.DelayNegative" end time: Jun 19 07:08 RTZ 2 (зима)
+"UtilsTestSuite.DelayNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 19 07:08 RTZ 2 (зима)

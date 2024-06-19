@@ -1,0 +1,17 @@
+GeometryTestSuite.CalculatePixelPositive 1 0.00682
+GeometryTestSuite.CalculatePixelNegative 1 0.0059875
+GeometryTestSuite.ParseLinePositive 1 0.0063408
+GeometryTestSuite.ParseLineNegative 1 0.0061219
+GeometryTestSuite.ConvertMapPositive 1 0.0060173
+GeometryTestSuite.ConvertMapNegative 1 0.0092356
+GeometryTestSuite.LSliderCordsPositive 1 0.0065993
+GeometryTestSuite.LSliderCordsNegative 1 0.0063356
+GeometryTestSuite.FindPointOnCirclePositive 1 0.0068837
+GeometryTestSuite.FindPointOnCircleNegative 1 0.0071609
+MyFunctionsTestSuite.GetProcessHandleByNamePositive 1 0.0105128
+MyFunctionsTestSuite.GetProcessHandleByNameNegative 1 0.0138673
+MyFunctionsTestSuite.ConvertBytesToStringPositive 1 0.0067359
+MyFunctionsTestSuite.ConvertBytesToStringNegative 1 0.0063404
+UtilsTestSuite.DelayPositive 1 0.106709
+UtilsTestSuite.DelayNegative 1 0.0069406
+---
