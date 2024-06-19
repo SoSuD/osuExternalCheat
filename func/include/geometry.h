@@ -122,10 +122,7 @@ void moveCursorInCircle(int timeNow, int timeEnd);
  *
  * The `Point` structure is used to store the coordinates of a point.
  */
-struct Point {
-    int x; ///< The X coordinate of the point.
-    int y; ///< The Y coordinate of the point.
-};
+struct Point;
 
 /**
  * @brief Calculates the Bezier point for a given t value.
